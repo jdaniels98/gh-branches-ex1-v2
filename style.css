@@ -40,17 +40,24 @@
 }
 
 .container-middle-upper {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
     height: 30vh;
+    margin-right: 30vw;
 }
 
 .container-img {
     height: 100%;
     width: 30vw;
+    margin-top: 8vh;
 }
 
 .container-text {
     height: 100%;
     width: 20vw;
+    margin-top: 13vh;
+    font-weight: bold;
 }
 
 p {

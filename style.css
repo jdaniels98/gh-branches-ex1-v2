@@ -96,8 +96,11 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
     width: 100%;
+    list-style: none;
 }
 
 .li-menu-bottom:hover {
